@@ -1,0 +1,12 @@
+{
+  "short_name": "HurtigPlan",
+  "name": "Hurtig Plan",
+  "icons": [{
+    "src": "icon.png",
+    "type": "image/png",
+    "sizes": "192x192"
+  }],
+  "start_url": "/?utm_source=homescreen",
+  "background_color": "#e9f2f6",
+  "theme_color": "#4dc2ff"
+}
