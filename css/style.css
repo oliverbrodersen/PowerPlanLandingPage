@@ -38,6 +38,13 @@ p{
     background: var(--primary);
     border-radius: 3rem;
     transition: all cubic-bezier(0.44, -0.07, 0.15, 0.9) .2s;
+    animation: ease .5s hero-appear forwards 1;
+}
+
+@keyframes hero-appear{
+    0%{
+        width: min(100vh, 100vw);
+    }
 }
 
 .hero-container h1:not(.teaserh1){
